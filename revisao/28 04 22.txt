@@ -1,0 +1,10 @@
+avaliações é sempre um a menos do numero de possibilidade
+
+WHILE: Enquanto a condição for verdadeira, ele continua. Caso seja falsa  o bloco encerra a execução
+
+FAZER OS EXERCÍCIOS (4) DE LAÇO DE REPETIÇÃO
+
+1EX:multiplicar o numero digitado por ele memso 3 vezes (ex:3x3x3=27)
+2EX:  if($num%2 !=0) { echo $num}
+3EX:
+4EX:
