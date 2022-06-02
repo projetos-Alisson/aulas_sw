@@ -4,21 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Página inicial</title>
 </head>
 <body>
+    
+ <!--  <div class="context"> -->
+    <main class="container">
+        <h2>Login</h2>
+        <form action="valida.php" method="POST">
+            <div class="input-field"> 
+            <p>Nome Usuário: <input type="text" name="usuario"></p>
+          <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <p>Senha: <input type="password" name="senha"></p>
+            <div class="underline"></div>
+        </div>
 
-    <form action="valida.php" method="POST">
-        <p>Nome Usuário: <input type="text" name="usuario"></p>
-        <p>Senha: <input type="password" name="senha"></p>
-        <input type="submit" value="LOGAR">  
-    </form>
 
-    <div class="area">
+            <input type="submit" value="LOGAR">  
+        </form>
+
+      <div class="footer"></div>
+          <span>Or Connect With Social Media</span>
+          <div class="social-fields">
+             <div class="social-field google">
+                <a href="#">
+                    <i class="fab fa-google"></i>
+                    Sign in with google
+                </a>
+              </div>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    Sign in with Facebook
+                </a>
+            </div>
+          </div>
+        </div>
+    </main>
+
+<!--  <div class="area">
        <ul class="circles">
             <li></li>
        </ul>
-    </div>
-    
+    </div>-->
+</div>
 </body>
 </html>
